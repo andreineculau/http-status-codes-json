@@ -1,17 +1,27 @@
 {
     "name": "http-status-codes-json",
-    "version": "2012.5.1",
-    "author": "Andrei Neculau <andrei.neculau@gmail.com> (http://andreineculau.com)",
+    "version": "2012.11.13",
     "description": "Nothing more, nothing less than the IANA registered HTTP status codes in JSON format.",
-    "main": "./http_status.json",
+    "author": "Andrei Neculau <@andreineculau>",
+    "contributors": [],
     "repository": {
         "type": "git",
-        "url": "https://github.com/andreineculau/http-status-codes-json"
+        "url": "git://github.com/andreineculau/http-status-codes-json"
     },
     "keywords": [
         "http",
         "codes",
         "json",
         "iana"
-    ]
+    ],
+    "license": "MIT",
+    "engines": {
+        "node": "~0.8.12"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "bundleDependencies": {},
+    "script": {},
+    "bin": {},
+    "main": "index.js"
 }
