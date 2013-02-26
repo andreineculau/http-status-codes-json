@@ -12,7 +12,7 @@ npm install http-status-codes-json
 
 ```js
 var codes = require('http-status-codes-json');
-console.log(codes.200);
+console.log(codes[200]); // => 'OK'
 ```
 
 [^1]: <http://www.iana.org/assignments/http-status-codes/http-status-codes.xml>
